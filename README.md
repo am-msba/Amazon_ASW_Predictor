@@ -1,5 +1,5 @@
 ## Background
-This project is an end-to-end data pipeline built during my **Business Analytics (MSBA) program**. The goal was simple: use cloud infrastructure to predict if a company is headed toward bankruptcy based on its financial health.
+This project is an end-to-end data pipeline built using Amazon's AWS cloud capabilities. The goal was to use the cloud infrastructure to predict if a company is headed toward bankruptcy based on its financial health from given raw data.
 
 <p align="center">
   <img src="assets/Data_Architecture.png" width="500" alt="Data Architecture">
