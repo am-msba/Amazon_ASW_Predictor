@@ -36,7 +36,7 @@ I built the architecture using **AWS** to keep everything scalable and organized
 ---
 
 ## Results
-The model was able to predict bankruptcy with **97.214% accuracy**. Out of all the companies in the data, two companies were overwhemlingly predicted to go bankrupt which were western corp and design solutions as shown below: 
+The model was able to predict bankruptcy with **97.214% accuracy**. Out of all the companies in the data, two companies were overwhemlingly predicted to go bankrupt which were Western Corp and Design Solutions as shown below: 
 
 <p align="center">
   <img src="assets/Sagemaker_Model_Initial_Results.png" width="400" alt="Model Prediction">
