@@ -2,7 +2,7 @@
 This project is an end-to-end data pipeline built during my **Business Analytics (MSBA) program**. The goal was simple: use cloud infrastructure to predict if a company is headed toward bankruptcy based on its financial health.
 
 <p align="center">
-  <img src="assets/Data_Architecture.png" width="600" alt="Data Architecture">
+  <img src="assets/Data_Architecture.png" width="500" alt="Data Architecture">
   <br>
   <i>Figure 1: Data Architecture Diagram.</i>
 </p>
@@ -11,14 +11,28 @@ This project is an end-to-end data pipeline built during my **Business Analytics
 
 ## Methods and Tools
 I built the architecture using **AWS** to keep everything scalable and organized:
-* **Amazon S3**: My "data lake" where raw files and final prediction reports live.
-* **Amazon Redshift**: The heavy lifter for data warehousing. I used SQL to build tables and `COPY` commands to pull data in from S3.
-* **SageMaker AI**: Where the magic happens. I used this for exploratory data analysis and to train the actual machine learning model.
+* **Amazon S3**: My "data lake" where raw data is stored in S3 buckets such as `msba-data-prototype`.
+<p align="center">
+  <img src="assets/S3_Setup.png" width="400" alt="Model Prediction">
+  <br>
+  <i>Figure 2: S3 Setup.</i>
+</p>
 
-1.  **Data Setup**: Raw financial data gets dumped into S3 buckets like `msba-data-prototype`.
-2.  **SQL Wrangling**: I initialized a `bankrupt` table in Redshift and mapped out the schema, including company names and bankruptcy status.
-3.  **The Model**: 
-    * I ran a **2-category prediction** model to classify companies. 
+* **Amazon Redshift**: I used SQL queries to build tables and `COPY` commands to pull data in from the respective S3 buckets.
+<p align="center">
+  <img src="assets/Redshift_Query.png" width="400" alt="Model Prediction">
+  <br>
+  <i>Figure 3: Redshift SQL Queries.</i>
+</p>
+
+* **SageMaker AI**: I used this for exploratory data analysis and to train the actual machine learning model.
+  * **The Model**: I ran a **2-category prediction** model to classify companies.
+<p align="center">
+  <img src="assets/Sagemaker_Setup.png" width="400" alt="Model Prediction">
+  <br>
+  <i>Figure 5: Sagemaker Model Setup.</i>
+</p>
+
 ---
 
 ## Results
