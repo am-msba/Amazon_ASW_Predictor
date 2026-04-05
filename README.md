@@ -1,4 +1,7 @@
-[**Home**](https://am-msba.github.io/Portfolio/) | [**MIP Optimizer**](https://am-msba.github.io/MIP_Optimization_Solver/) | [**ML Prediction Modeling**](https://am-msba.github.io/Machine_Learning_Prediction_Project/) 
+
+<a href="https://am-msba.github.io/Portfolio/" style="color: #c5050c; font-weight: bold;">Home</a> | 
+<a href="https://am-msba.github.io/Machine_Learning_Prediction_Project/" style="color: #c5050c; font-weight: bold;">ML Prediction</a> | 
+<a href="https://am-msba.github.io/MIP_Optimization_Solver/" style="color: #c5050c; font-weight: bold;">MIP Optimizer</a>
 
 
 ## Background
