@@ -1,0 +1,12 @@
+title: AWS Bankruptcy Prediction
+
+theme: jekyll-theme-minimal
+
+#External navigation links
+nav_links:
+  - title: "Home"
+    url: "https://am-msba.github.io/Portfolio/"
+  - title: "ML Prediction Model"
+    url: "https://am-msba.github.io/Machine_Learning_Prediction_Project/"
+  -title:  "MIP Optimizer"
+    url: "https://am-msba.github.io/MIP-Optimization-Solver/"
