@@ -1,3 +1,6 @@
+[**Home**](https://am-msba.github.io/Portfolio/) | [**MIP Optimizer**](https://am-msba.github.io/MIP_Optimization_Solver/) | [**ML Prediction Modeling**](https://am-msba.github.io/Machine_Learning_Prediction_Project/) 
+
+
 ## Background
 This project is an end-to-end data pipeline built using Amazon's AWS cloud capabilities. The goal was to use the cloud infrastructure to predict if a company is headed toward bankruptcy based on its financial health from given raw data.
 
