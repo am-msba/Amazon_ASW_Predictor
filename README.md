@@ -26,7 +26,7 @@ I built the architecture using **AWS** to keep everything scalable and organized
 </p>
 
 * **SageMaker AI**: I used this for exploratory data analysis and to train the actual machine learning model.
-  * **The Model**: I ran a **2-category prediction** model to classify companies.
+  * **The Model**: I ran a **2-category prediction** model to classify companies as either bankrupt (1) or not bankrupt (0).
 <p align="center">
   <img src="assets/Sagemaker_Setup.png" width="400" alt="Model Prediction">
   <br>
