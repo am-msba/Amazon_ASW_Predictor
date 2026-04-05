@@ -8,5 +8,5 @@ nav_links:
     url: "https://am-msba.github.io/Portfolio/"
   - title: "ML Prediction Model"
     url: "https://am-msba.github.io/Machine_Learning_Prediction_Project/"
-  -title:  "MIP Optimizer"
+  - title:  "MIP Optimizer"
     url: "https://am-msba.github.io/MIP-Optimization-Solver/"
